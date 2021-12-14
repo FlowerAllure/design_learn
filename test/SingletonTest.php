@@ -1,9 +1,10 @@
 <?php
-namespace Flowerallure\PhpunitLearn;
 
 use PHPUnit\Framework\TestCase;
 
-class MyTest extends TestCase
+require '../vendor/autoload.php';
+
+class SingletonTest extends TestCase
 {
     public function testOne()
     {
