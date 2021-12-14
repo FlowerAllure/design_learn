@@ -1,0 +1,22 @@
+{
+    "name": "flowerallure/phpunit-learn",
+    "description": "First Learn",
+    "license": ["MIT"],
+    "type": "library",
+    "authors": [
+        {
+            "name": "pan",
+            "email": "feng.pan@mail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "phpunit/phpunit": "^9"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Flowerallure\\PhpunitLearn\\": "src/"
+        }
+    }
+}
