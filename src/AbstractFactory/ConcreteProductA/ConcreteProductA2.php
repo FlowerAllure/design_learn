@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Flowerallure\PhpunitLearn\AbstractFactory;
+namespace Flowerallure\PhpunitLearn\AbstractFactory\ConcreteProductA;
 
 
-use Flowerallure\PhpunitLearn\AbstractFactory\Product\AbstractProductA;
+use Flowerallure\PhpunitLearn\AbstractFactory\AbstractProductA;
 
 class ConcreteProductA2 implements AbstractProductA
 {

@@ -1,12 +1,13 @@
 <?php
 
 
-namespace Flowerallure\PhpunitLearn\AbstractFactory;
+namespace Flowerallure\PhpunitLearn\AbstractFactory\ConcreteProductB;
 
 
-use Flowerallure\PhpunitLearn\AbstractFactory\Product\AbstractProductA;
+use Flowerallure\PhpunitLearn\AbstractFactory\AbstractProductA;
+use Flowerallure\PhpunitLearn\AbstractFactory\AbstractProductB;
 
-class ConcreteProductB2 implements Product\AbstractProductB
+class ConcreteProductB2 implements AbstractProductB
 {
 
     public function usefulFunctionB(): string

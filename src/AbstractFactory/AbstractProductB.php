@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Flowerallure\PhpunitLearn\AbstractFactory\Product;
+namespace Flowerallure\PhpunitLearn\AbstractFactory;
 
 
 interface AbstractProductB

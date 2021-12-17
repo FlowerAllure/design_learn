@@ -12,6 +12,6 @@ abstract class Creator
     {
         $product = $this->factoryMethod();
 
-        return "Creator: The same creator's code has just worked with " . $product->operation();
+        return $product->operation();
     }
 }

@@ -1,10 +1,10 @@
 <?php
 
-use Flowerallure\PhpunitLearn\AbstractFactory\ConcreteFactory1;
-use Flowerallure\PhpunitLearn\AbstractFactory\Factory\AbstractFactory;
+use Flowerallure\PhpunitLearn\AbstractFactory\AbstractFactory;
+use Flowerallure\PhpunitLearn\AbstractFactory\Factory\ConcreteFactory1;
+use Flowerallure\PhpunitLearn\AbstractFactory\Factory\ConcreteFactory2;
 
 require '../vendor/autoload.php';
-
 
 function clientCode(AbstractFactory $factory)
 {
@@ -17,3 +17,4 @@ function clientCode(AbstractFactory $factory)
 
 
 clientCode(new ConcreteFactory1());
+clientCode(new ConcreteFactory2());
