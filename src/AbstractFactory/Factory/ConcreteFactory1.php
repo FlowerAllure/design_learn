@@ -12,7 +12,6 @@ use Flowerallure\PhpunitLearn\AbstractFactory\ConcreteProductB\ConcreteProductB1
 
 class ConcreteFactory1 implements AbstractFactory
 {
-
     public function createProductA(): AbstractProductA
     {
         return new ConcreteProductA1();
