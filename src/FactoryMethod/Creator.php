@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Flowerallure\PhpunitLearn\FactoryMethod;
+namespace Flowerallure\DesignLearn\FactoryMethod;
 
 
 abstract class Creator

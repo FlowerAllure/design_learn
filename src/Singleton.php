@@ -1,10 +1,10 @@
 <?php
-namespace Flowerallure\PhpunitLearn;
+namespace Flowerallure\DesignLearn;
 
 /**
  * 单例模式
  * Class Singleton
- * @package Flowerallure\PhpunitLearn
+ * @package Flowerallure\DesignLearn
  */
 final class Singleton
 {

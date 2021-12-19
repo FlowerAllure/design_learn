@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Flowerallure\PhpunitLearn\AbstractFactoryZhiHu\Product;
+namespace Flowerallure\DesignLearn\AbstractFactoryZhiHu\Product;
 
 
-use Flowerallure\PhpunitLearn\AbstractFactoryZhiHu\MonitorProduct;
+use Flowerallure\DesignLearn\AbstractFactoryZhiHu\MonitorProduct;
 
 class HpMonitor implements MonitorProduct
 {

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Flowerallure\PhpunitLearn\AbstractFactoryZhiHu;
+namespace Flowerallure\DesignLearn\AbstractFactoryZhiHu;
 
 
 interface KeyboardProduct

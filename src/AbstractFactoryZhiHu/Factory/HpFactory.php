@@ -1,16 +1,16 @@
 <?php
 
 
-namespace Flowerallure\PhpunitLearn\AbstractFactoryZhiHu\Factory;
+namespace Flowerallure\DesignLearn\AbstractFactoryZhiHu\Factory;
 
 
-use Flowerallure\PhpunitLearn\AbstractFactoryZhiHu\IFactory;
-use Flowerallure\PhpunitLearn\AbstractFactoryZhiHu\KeyboardProduct;
-use Flowerallure\PhpunitLearn\AbstractFactoryZhiHu\MainFrameProduct;
-use Flowerallure\PhpunitLearn\AbstractFactoryZhiHu\MonitorProduct;
-use Flowerallure\PhpunitLearn\AbstractFactoryZhiHu\Product\HPKeyBoard;
-use Flowerallure\PhpunitLearn\AbstractFactoryZhiHu\Product\HpMainFrame;
-use Flowerallure\PhpunitLearn\AbstractFactoryZhiHu\Product\HpMonitor;
+use Flowerallure\DesignLearn\AbstractFactoryZhiHu\IFactory;
+use Flowerallure\DesignLearn\AbstractFactoryZhiHu\KeyboardProduct;
+use Flowerallure\DesignLearn\AbstractFactoryZhiHu\MainFrameProduct;
+use Flowerallure\DesignLearn\AbstractFactoryZhiHu\MonitorProduct;
+use Flowerallure\DesignLearn\AbstractFactoryZhiHu\Product\HPKeyBoard;
+use Flowerallure\DesignLearn\AbstractFactoryZhiHu\Product\HpMainFrame;
+use Flowerallure\DesignLearn\AbstractFactoryZhiHu\Product\HpMonitor;
 
 class HpFactory implements IFactory
 {

@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Flowerallure\PhpunitLearn\FactoryMethodLearnKu\ConcreteLogger;
+namespace Flowerallure\DesignLearn\FactoryMethodLearnKu\ConcreteLogger;
 
 
-use Flowerallure\PhpunitLearn\FactoryMethodLearnKu\Logger;
+use Flowerallure\DesignLearn\FactoryMethodLearnKu\Logger;
 
 class StdoutLogger implements Logger
 {

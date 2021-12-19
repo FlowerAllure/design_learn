@@ -1,10 +1,10 @@
 <?php
 
 
-use Flowerallure\PhpunitLearn\FactoryMethodLearnKu\ConcreteFactory\FileLoggerFactory;
-use Flowerallure\PhpunitLearn\FactoryMethodLearnKu\ConcreteFactory\StdoutLoggerFactory;
-use Flowerallure\PhpunitLearn\FactoryMethodLearnKu\ConcreteLogger\FileLogger;
-use Flowerallure\PhpunitLearn\FactoryMethodLearnKu\ConcreteLogger\StdoutLogger;
+use Flowerallure\DesignLearn\FactoryMethodLearnKu\ConcreteFactory\FileLoggerFactory;
+use Flowerallure\DesignLearn\FactoryMethodLearnKu\ConcreteFactory\StdoutLoggerFactory;
+use Flowerallure\DesignLearn\FactoryMethodLearnKu\ConcreteLogger\FileLogger;
+use Flowerallure\DesignLearn\FactoryMethodLearnKu\ConcreteLogger\StdoutLogger;
 use PHPUnit\Framework\TestCase;
 
 class MethodFactoryLearnTest extends TestCase

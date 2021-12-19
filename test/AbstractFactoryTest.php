@@ -1,8 +1,8 @@
 <?php
 
-use Flowerallure\PhpunitLearn\AbstractFactory\AbstractFactory;
-use Flowerallure\PhpunitLearn\AbstractFactory\Factory\ConcreteFactory1;
-use Flowerallure\PhpunitLearn\AbstractFactory\Factory\ConcreteFactory2;
+use Flowerallure\DesignLearn\AbstractFactory\AbstractFactory;
+use Flowerallure\DesignLearn\AbstractFactory\Factory\ConcreteFactory1;
+use Flowerallure\DesignLearn\AbstractFactory\Factory\ConcreteFactory2;
 
 require '../vendor/autoload.php';
 

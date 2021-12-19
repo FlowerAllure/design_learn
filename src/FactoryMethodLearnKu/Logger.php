@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Flowerallure\PhpunitLearn\FactoryMethodLearnKu;
+namespace Flowerallure\DesignLearn\FactoryMethodLearnKu;
 
 
 interface Logger

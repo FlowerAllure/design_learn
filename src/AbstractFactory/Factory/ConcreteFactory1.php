@@ -1,14 +1,14 @@
 <?php
 
 
-namespace Flowerallure\PhpunitLearn\AbstractFactory\Factory;
+namespace Flowerallure\DesignLearn\AbstractFactory\Factory;
 
 
-use Flowerallure\PhpunitLearn\AbstractFactory\AbstractFactory;
-use Flowerallure\PhpunitLearn\AbstractFactory\AbstractProductA;
-use Flowerallure\PhpunitLearn\AbstractFactory\AbstractProductB;
-use Flowerallure\PhpunitLearn\AbstractFactory\ConcreteProductA\ConcreteProductA1;
-use Flowerallure\PhpunitLearn\AbstractFactory\ConcreteProductB\ConcreteProductB1;
+use Flowerallure\DesignLearn\AbstractFactory\AbstractFactory;
+use Flowerallure\DesignLearn\AbstractFactory\AbstractProductA;
+use Flowerallure\DesignLearn\AbstractFactory\AbstractProductB;
+use Flowerallure\DesignLearn\AbstractFactory\ConcreteProductA\ConcreteProductA1;
+use Flowerallure\DesignLearn\AbstractFactory\ConcreteProductB\ConcreteProductB1;
 
 class ConcreteFactory1 implements AbstractFactory
 {

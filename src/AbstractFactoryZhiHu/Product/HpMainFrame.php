@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Flowerallure\PhpunitLearn\AbstractFactoryZhiHu\Product;
+namespace Flowerallure\DesignLearn\AbstractFactoryZhiHu\Product;
 
 
-use Flowerallure\PhpunitLearn\AbstractFactoryZhiHu\MainFrameProduct;
+use Flowerallure\DesignLearn\AbstractFactoryZhiHu\MainFrameProduct;
 
 class HpMainFrame implements MainFrameProduct
 {

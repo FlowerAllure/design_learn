@@ -1,8 +1,8 @@
 <?php
 
-namespace Flowerallure\PhpunitLearn\FactoryMethod\ConcreteProduct;
+namespace Flowerallure\DesignLearn\FactoryMethod\ConcreteProduct;
 
-use Flowerallure\PhpunitLearn\FactoryMethod\Product;
+use Flowerallure\DesignLearn\FactoryMethod\Product;
 
 class ConcreteProduct2 implements Product
 {

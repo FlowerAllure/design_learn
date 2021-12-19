@@ -1,11 +1,11 @@
 <?php
 
 
-namespace Flowerallure\PhpunitLearn\FactoryMethod\ConcreteCreator;
+namespace Flowerallure\DesignLearn\FactoryMethod\ConcreteCreator;
 
-use Flowerallure\PhpunitLearn\FactoryMethod\ConcreteProduct\ConcreteProduct1;
-use Flowerallure\PhpunitLearn\FactoryMethod\Creator;
-use Flowerallure\PhpunitLearn\FactoryMethod\Product;
+use Flowerallure\DesignLearn\FactoryMethod\ConcreteProduct\ConcreteProduct1;
+use Flowerallure\DesignLearn\FactoryMethod\Creator;
+use Flowerallure\DesignLearn\FactoryMethod\Product;
 
 class ConcreteCreator1 extends Creator
 {

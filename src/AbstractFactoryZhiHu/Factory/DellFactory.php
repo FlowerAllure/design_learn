@@ -1,16 +1,16 @@
 <?php
 
 
-namespace Flowerallure\PhpunitLearn\AbstractFactoryZhiHu\Factory;
+namespace Flowerallure\DesignLearn\AbstractFactoryZhiHu\Factory;
 
 
-use Flowerallure\PhpunitLearn\AbstractFactoryZhiHu\IFactory;
-use Flowerallure\PhpunitLearn\AbstractFactoryZhiHu\KeyboardProduct;
-use Flowerallure\PhpunitLearn\AbstractFactoryZhiHu\MainFrameProduct;
-use Flowerallure\PhpunitLearn\AbstractFactoryZhiHu\MonitorProduct;
-use Flowerallure\PhpunitLearn\AbstractFactoryZhiHu\Product\DellKeyBoard;
-use Flowerallure\PhpunitLearn\AbstractFactoryZhiHu\Product\DellMainFrame;
-use Flowerallure\PhpunitLearn\AbstractFactoryZhiHu\Product\DellMonitor;
+use Flowerallure\DesignLearn\AbstractFactoryZhiHu\IFactory;
+use Flowerallure\DesignLearn\AbstractFactoryZhiHu\KeyboardProduct;
+use Flowerallure\DesignLearn\AbstractFactoryZhiHu\MainFrameProduct;
+use Flowerallure\DesignLearn\AbstractFactoryZhiHu\MonitorProduct;
+use Flowerallure\DesignLearn\AbstractFactoryZhiHu\Product\DellKeyBoard;
+use Flowerallure\DesignLearn\AbstractFactoryZhiHu\Product\DellMainFrame;
+use Flowerallure\DesignLearn\AbstractFactoryZhiHu\Product\DellMonitor;
 
 class DellFactory implements IFactory
 {

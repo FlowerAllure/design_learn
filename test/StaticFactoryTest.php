@@ -1,7 +1,7 @@
 <?php
 
-use Flowerallure\PhpunitLearn\StaticFactory\FormatNumber;
-use Flowerallure\PhpunitLearn\StaticFactory\StaticFactory;
+use Flowerallure\DesignLearn\StaticFactory\FormatNumber;
+use Flowerallure\DesignLearn\StaticFactory\StaticFactory;
 use PHPUnit\Framework\TestCase;
 
 class StaticFactoryTest extends TestCase

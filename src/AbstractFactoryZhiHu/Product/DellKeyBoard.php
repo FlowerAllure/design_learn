@@ -1,11 +1,11 @@
 <?php
 
 
-namespace Flowerallure\PhpunitLearn\AbstractFactoryZhiHu\Product;
+namespace Flowerallure\DesignLearn\AbstractFactoryZhiHu\Product;
 
 
-use Flowerallure\PhpunitLearn\AbstractFactoryZhiHu\Factory\DellFactory;
-use Flowerallure\PhpunitLearn\AbstractFactoryZhiHu\KeyboardProduct;
+use Flowerallure\DesignLearn\AbstractFactoryZhiHu\Factory\DellFactory;
+use Flowerallure\DesignLearn\AbstractFactoryZhiHu\KeyboardProduct;
 
 class DellKeyBoard implements KeyboardProduct
 {

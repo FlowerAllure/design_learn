@@ -1,8 +1,8 @@
 <?php
 
-use Flowerallure\PhpunitLearn\FactoryMethod\ConcreteCreator\ConcreteCreator1;
-use Flowerallure\PhpunitLearn\FactoryMethod\ConcreteCreator\ConcreteCreator2;
-use Flowerallure\PhpunitLearn\FactoryMethod\Creator;
+use Flowerallure\DesignLearn\FactoryMethod\ConcreteCreator\ConcreteCreator1;
+use Flowerallure\DesignLearn\FactoryMethod\ConcreteCreator\ConcreteCreator2;
+use Flowerallure\DesignLearn\FactoryMethod\Creator;
 
 require '../vendor/autoload.php';
 

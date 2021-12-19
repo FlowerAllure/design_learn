@@ -1,8 +1,8 @@
 <?php
 
 
-use Flowerallure\PhpunitLearn\SimpleFactory\Bicycle;
-use Flowerallure\PhpunitLearn\SimpleFactory\SimpleFactory;
+use Flowerallure\DesignLearn\SimpleFactory\Bicycle;
+use Flowerallure\DesignLearn\SimpleFactory\SimpleFactory;
 use PHPUnit\Framework\TestCase;
 
 require '../vendor/autoload.php';

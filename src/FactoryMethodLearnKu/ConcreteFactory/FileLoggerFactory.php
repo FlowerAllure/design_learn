@@ -1,11 +1,11 @@
 <?php
 
 
-namespace Flowerallure\PhpunitLearn\FactoryMethodLearnKu\ConcreteFactory;
+namespace Flowerallure\DesignLearn\FactoryMethodLearnKu\ConcreteFactory;
 
-use Flowerallure\PhpunitLearn\FactoryMethodLearnKu\ConcreteLogger\FileLogger;
-use Flowerallure\PhpunitLearn\FactoryMethodLearnKu\Logger;
-use Flowerallure\PhpunitLearn\FactoryMethodLearnKu\LoggerFactory;
+use Flowerallure\DesignLearn\FactoryMethodLearnKu\ConcreteLogger\FileLogger;
+use Flowerallure\DesignLearn\FactoryMethodLearnKu\Logger;
+use Flowerallure\DesignLearn\FactoryMethodLearnKu\LoggerFactory;
 
 class FileLoggerFactory implements LoggerFactory
 {

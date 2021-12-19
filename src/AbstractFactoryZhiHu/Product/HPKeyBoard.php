@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Flowerallure\PhpunitLearn\AbstractFactoryZhiHu\Product;
+namespace Flowerallure\DesignLearn\AbstractFactoryZhiHu\Product;
 
 
-use Flowerallure\PhpunitLearn\AbstractFactoryZhiHu\KeyboardProduct;
+use Flowerallure\DesignLearn\AbstractFactoryZhiHu\KeyboardProduct;
 
 class HPKeyBoard implements KeyboardProduct
 {

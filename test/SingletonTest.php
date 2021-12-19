@@ -1,6 +1,6 @@
 <?php
 
-use Flowerallure\PhpunitLearn\Singleton;
+use Flowerallure\DesignLearn\Singleton;
 use PHPUnit\Framework\TestCase;
 
 require '../vendor/autoload.php';

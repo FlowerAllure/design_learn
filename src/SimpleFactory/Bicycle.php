@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Flowerallure\PhpunitLearn\SimpleFactory;
+namespace Flowerallure\DesignLearn\SimpleFactory;
 
 
 class Bicycle

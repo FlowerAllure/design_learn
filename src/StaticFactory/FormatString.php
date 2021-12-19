@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Flowerallure\PhpunitLearn\StaticFactory;
+namespace Flowerallure\DesignLearn\StaticFactory;
 
 
 class FormatString implements FormatterInterface
