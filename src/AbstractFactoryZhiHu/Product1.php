@@ -4,7 +4,7 @@
 namespace Flowerallure\DesignLearn\AbstractFactoryZhiHu;
 
 
-interface MonitorProduct
+interface Product1
 {
     public function name(): string;
 }

@@ -4,7 +4,7 @@
 namespace Flowerallure\DesignLearn\AbstractFactoryZhiHu;
 
 
-interface MainFrameProduct
+interface Product3
 {
     public function name(): string;
 }

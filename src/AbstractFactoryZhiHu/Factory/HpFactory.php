@@ -4,28 +4,28 @@
 namespace Flowerallure\DesignLearn\AbstractFactoryZhiHu\Factory;
 
 
-use Flowerallure\DesignLearn\AbstractFactoryZhiHu\IFactory;
-use Flowerallure\DesignLearn\AbstractFactoryZhiHu\KeyboardProduct;
-use Flowerallure\DesignLearn\AbstractFactoryZhiHu\MainFrameProduct;
-use Flowerallure\DesignLearn\AbstractFactoryZhiHu\MonitorProduct;
-use Flowerallure\DesignLearn\AbstractFactoryZhiHu\Product\HPKeyBoard;
-use Flowerallure\DesignLearn\AbstractFactoryZhiHu\Product\HpMainFrame;
-use Flowerallure\DesignLearn\AbstractFactoryZhiHu\Product\HpMonitor;
+use Flowerallure\DesignLearn\AbstractFactoryZhiHu\Factory;
+use Flowerallure\DesignLearn\AbstractFactoryZhiHu\Product1;
+use Flowerallure\DesignLearn\AbstractFactoryZhiHu\Product2;
+use Flowerallure\DesignLearn\AbstractFactoryZhiHu\Product3;
+use Flowerallure\DesignLearn\AbstractFactoryZhiHu\Product\HpProduct3;
+use Flowerallure\DesignLearn\AbstractFactoryZhiHu\Product\HpProduct1;
+use Flowerallure\DesignLearn\AbstractFactoryZhiHu\Product\HpProduct2;
 
-class HpFactory implements IFactory
+class HpFactory implements Factory
 {
-    public function createMainFrame(): MainFrameProduct
+    public function createProduct1(): Product1
     {
-        return new HpMainFrame();
+        return new HpProduct1();
     }
 
-    public function createMonitor(): MonitorProduct
+    public function createProduct2(): Product2
     {
-        return new HpMonitor();
+        return new HpProduct2();
     }
 
-    public function createKeyboard(): KeyboardProduct
+    public function createProduct3(): Product3
     {
-        return new HPKeyBoard();
+        return new HpProduct3();
     }
 }
