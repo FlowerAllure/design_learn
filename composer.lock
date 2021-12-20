@@ -486,12 +486,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfPHP/PHP-CS-Fixer.git",
-                "reference": "1f4f55aa17fa6e3dbff66708d76c932cb074bd0e"
+                "reference": "f9d15af98faaa90f1eeb3db49cab6def2cb4f40b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfPHP/PHP-CS-Fixer/zipball/1f4f55aa17fa6e3dbff66708d76c932cb074bd0e",
-                "reference": "1f4f55aa17fa6e3dbff66708d76c932cb074bd0e",
+                "url": "https://api.github.com/repos/FriendsOfPHP/PHP-CS-Fixer/zipball/f9d15af98faaa90f1eeb3db49cab6def2cb4f40b",
+                "reference": "f9d15af98faaa90f1eeb3db49cab6def2cb4f40b",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -574,7 +574,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-12-16T09:21:29+00:00"
+            "time": "2021-12-20T12:32:12+00:00"
         },
         {
             "name": "myclabs/deep-copy",
@@ -950,12 +950,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/ReflectionDocBlock.git",
-                "reference": "622548b623e81ca6d78b721c5e029f4ce664f170"
+                "reference": "647571f8e8fa7c4d36bb071f4d797ce9941b64f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/622548b623e81ca6d78b721c5e029f4ce664f170",
-                "reference": "622548b623e81ca6d78b721c5e029f4ce664f170",
+                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/647571f8e8fa7c4d36bb071f4d797ce9941b64f4",
+                "reference": "647571f8e8fa7c4d36bb071f4d797ce9941b64f4",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -1004,9 +1004,9 @@
             "description": "With this component, a library can provide support for annotations via DocBlocks or otherwise retrieve information that is embedded in a DocBlock.",
             "support": {
                 "issues": "https://github.com/phpDocumentor/ReflectionDocBlock/issues",
-                "source": "https://github.com/phpDocumentor/ReflectionDocBlock/tree/5.3.0"
+                "source": "https://github.com/phpDocumentor/ReflectionDocBlock/tree/master"
             },
-            "time": "2021-10-19T17:43:47+00:00"
+            "time": "2021-12-20T07:08:37+00:00"
         },
         {
             "name": "phpdocumentor/type-resolver",
@@ -1493,12 +1493,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "09f082e2c7564dc3a889e73015c65b836e2303a0"
+                "reference": "5d7f8cfe10a9e2f744a46cf3419ba97f1bdf6aa8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/09f082e2c7564dc3a889e73015c65b836e2303a0",
-                "reference": "09f082e2c7564dc3a889e73015c65b836e2303a0",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/5d7f8cfe10a9e2f744a46cf3419ba97f1bdf6aa8",
+                "reference": "5d7f8cfe10a9e2f744a46cf3419ba97f1bdf6aa8",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -1594,7 +1594,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-12-13T14:59:17+00:00"
+            "time": "2021-12-17T05:40:45+00:00"
         },
         {
             "name": "psr/cache",
