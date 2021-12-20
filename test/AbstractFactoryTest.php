@@ -2,7 +2,6 @@
 
 use Flowerallure\DesignLearn\AbstractFactory\AbstractFactory;
 use Flowerallure\DesignLearn\AbstractFactory\Factory\ConcreteFactory1;
-use Flowerallure\DesignLearn\AbstractFactory\Factory\ConcreteFactory2;
 
 require '../vendor/autoload.php';
 
@@ -15,6 +14,5 @@ function clientCode(AbstractFactory $factory)
     echo $productB->anotherUsefulFunctionB($productA);
 }
 
-
 clientCode(new ConcreteFactory1());
-clientCode(new ConcreteFactory2());
+clientCode(new \Flowerallure\DesignLearn\AbstractFactory\Factory\ConcreteFactory2());

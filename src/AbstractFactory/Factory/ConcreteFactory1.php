@@ -1,8 +1,6 @@
 <?php
 
-
 namespace Flowerallure\DesignLearn\AbstractFactory\Factory;
-
 
 use Flowerallure\DesignLearn\AbstractFactory\AbstractFactory;
 use Flowerallure\DesignLearn\AbstractFactory\AbstractProductA;

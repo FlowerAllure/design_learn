@@ -1,22 +1,19 @@
 <?php
 
-
 namespace Flowerallure\DesignLearn\StaticFactory;
-
 
 final class StaticFactory
 {
     public static function factory(string $type)
     {
-        if ($type == 'number') {
+        if ('number' == $type) {
             return new FormatNumber();
         }
 
-        if ($type == 'string') {
+        if ('string' == $type) {
             return new FormatString();
         }
 
         throw new \InvalidArgumentException('Unknown format given');
-
     }
 }

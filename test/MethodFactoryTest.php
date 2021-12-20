@@ -8,7 +8,7 @@ require '../vendor/autoload.php';
 
 function clientCode(Creator $creator)
 {
-    echo $creator->someOperation() . PHP_EOL;
+    echo $creator->someOperation().PHP_EOL;
 }
 
 clientCode(new ConcreteCreator1());

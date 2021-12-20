@@ -1,8 +1,6 @@
 <?php
 
-
 namespace Flowerallure\DesignLearn\FactoryMethod;
-
 
 interface Product
 {

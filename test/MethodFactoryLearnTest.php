@@ -1,6 +1,5 @@
 <?php
 
-
 use Flowerallure\DesignLearn\FactoryMethodLearnKu\ConcreteFactory\FileLoggerFactory;
 use Flowerallure\DesignLearn\FactoryMethodLearnKu\ConcreteFactory\StdoutLoggerFactory;
 use Flowerallure\DesignLearn\FactoryMethodLearnKu\ConcreteLogger\FileLogger;
@@ -13,7 +12,7 @@ class MethodFactoryLearnTest extends TestCase
     {
         $loggerFactory = new StdoutLoggerFactory();
         $stdoutLogger = $loggerFactory->createLogger();
-        echo $stdoutLogger->log("OK");
+        echo $stdoutLogger->log('OK');
         $this->assertInstanceOf(StdoutLogger::class, $stdoutLogger);
     }
 
@@ -21,7 +20,7 @@ class MethodFactoryLearnTest extends TestCase
     {
         $loggerFactory = new FileLoggerFactory();
         $fileLogger = $loggerFactory->createLogger();
-        echo $fileLogger->log("OK");
+        echo $fileLogger->log('OK');
         $this->assertInstanceOf(FileLogger::class, $fileLogger);
     }
 }

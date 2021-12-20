@@ -1,21 +1,18 @@
 <?php
+
 namespace Flowerallure\DesignLearn;
 
 /**
  * 单例模式
- * Class Singleton
- * @package Flowerallure\DesignLearn
+ * Class Singleton.
  */
 final class Singleton
 {
     private static $instance = null;
 
-    /**
-     * @return Singleton
-     */
     public static function getInstance(): Singleton
     {
-        if (static::$instance === null) {
+        if (null === static::$instance) {
             static::$instance = new static();
         }
 

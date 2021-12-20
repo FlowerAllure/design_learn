@@ -1,16 +1,14 @@
 <?php
 
-
 namespace Flowerallure\DesignLearn\AbstractFactoryZhiHu\Factory;
 
-
 use Flowerallure\DesignLearn\AbstractFactoryZhiHu\Factory;
+use Flowerallure\DesignLearn\AbstractFactoryZhiHu\Product\DellProduct1;
+use Flowerallure\DesignLearn\AbstractFactoryZhiHu\Product\DellProduct2;
+use Flowerallure\DesignLearn\AbstractFactoryZhiHu\Product\DellProduct3;
 use Flowerallure\DesignLearn\AbstractFactoryZhiHu\Product1;
 use Flowerallure\DesignLearn\AbstractFactoryZhiHu\Product2;
 use Flowerallure\DesignLearn\AbstractFactoryZhiHu\Product3;
-use Flowerallure\DesignLearn\AbstractFactoryZhiHu\Product\DellProduct3;
-use Flowerallure\DesignLearn\AbstractFactoryZhiHu\Product\DellProduct1;
-use Flowerallure\DesignLearn\AbstractFactoryZhiHu\Product\DellProduct2;
 
 class DellFactory implements Factory
 {

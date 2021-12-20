@@ -1,6 +1,5 @@
 <?php
 
-
 namespace Flowerallure\DesignLearn\FactoryMethodLearnKu\ConcreteFactory;
 
 use Flowerallure\DesignLearn\FactoryMethodLearnKu\ConcreteLogger\FileLogger;

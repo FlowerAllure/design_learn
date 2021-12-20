@@ -1,18 +1,15 @@
 <?php
 
-
 namespace Flowerallure\DesignLearn\AbstractFactory\ConcreteProductB;
-
 
 use Flowerallure\DesignLearn\AbstractFactory\AbstractProductA;
 use Flowerallure\DesignLearn\AbstractFactory\AbstractProductB;
 
 class ConcreteProductB2 implements AbstractProductB
 {
-
     public function usefulFunctionB(): string
     {
-        return "The result of the product B2.";
+        return 'The result of the product B2.';
     }
 
     public function anotherUsefulFunctionB(AbstractProductA $collaborator): string

@@ -1,6 +1,5 @@
 <?php
 
-
 namespace Flowerallure\DesignLearn\FactoryMethod\ConcreteCreator;
 
 use Flowerallure\DesignLearn\FactoryMethod\ConcreteProduct\ConcreteProduct1;
