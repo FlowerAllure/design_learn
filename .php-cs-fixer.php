@@ -14,7 +14,14 @@ $finder = PhpCsFixer\Finder::create()
     ->ignoreVCS(true);
 
 $rules = array(
-    '@Symfony'                                   => true,
+    '@Symfony'                                      => true,
+    'header_comment'                                => array('header' => $header),
+    'array_syntax'                                  => array('syntax' => 'short'),
+    'ordered_imports'                               => true,
+    'no_useless_else'                               => true,
+    'no_useless_return'                             => true,
+    'php_unit_construct'                            => true,
+    'php_unit_strict'                               => true,
 );
 
 $config = new PhpCsFixer\Config();

@@ -1,5 +1,10 @@
 <?php
 
+/*
+ * This source file is subject to the MIT license that is bundled
+ * with this source code in the file LICENSE.
+ */
+
 use Flowerallure\DesignLearn\AbstractFactoryZhiHu\Factory\DellFactory;
 use Flowerallure\DesignLearn\AbstractFactoryZhiHu\Factory\HpFactory;
 use Flowerallure\DesignLearn\AbstractFactoryZhiHu\Product\DellProduct1;
