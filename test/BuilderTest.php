@@ -1,5 +1,9 @@
 <?php
 
+/*
+ * This source file is subject to the MIT license that is bundled
+ * with this source code in the file LICENSE.
+ */
 
 use Flowerallure\DesignLearn\Builder\MysqlQueryBuilder;
 use Flowerallure\DesignLearn\Builder\PostgresQueryBuilder;
@@ -10,8 +14,8 @@ class BuilderTest extends TestCase
     public function testMysql()
     {
         $mysqlQueryBuilder = new MysqlQueryBuilder();
-        $user = $mysqlQueryBuilder->table('user')->select(["name", "email", "password"])->where("age", 18, ">")
-            ->where("age", 30, "<") ->limit(10, 20);
+        $user = $mysqlQueryBuilder->table('user')->select(['name', 'email', 'password'])->where('age', 18, '>')
+            ->where('age', 30, '<')->limit(10, 20);
 
         echo $user->getSQL();
 
@@ -22,8 +26,8 @@ class BuilderTest extends TestCase
     {
         $mysqlQueryBuilder = new PostgresQueryBuilder();
 
-        $user = $mysqlQueryBuilder->table('user')->select(["name", "email", "password"])->where("age", 18, ">")
-            ->where("age", 30, "<") ->limit(10, 20);
+        $user = $mysqlQueryBuilder->table('user')->select(['name', 'email', 'password'])->where('age', 18, '>')
+            ->where('age', 30, '<')->limit(10, 20);
 
         echo $user->getSQL();
 

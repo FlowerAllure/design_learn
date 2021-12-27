@@ -1,5 +1,9 @@
 <?php
 
+/*
+ * This source file is subject to the MIT license that is bundled
+ * with this source code in the file LICENSE.
+ */
 
 namespace Flowerallure\DesignLearn\Builder;
 
@@ -29,7 +33,7 @@ class MysqlQueryBuilder implements SQLQueryBuilder
 
     public function select(array $fields = []): SQLQueryBuilder
     {
-        $this->select = $fields ? implode(", ", $fields) : $this->select;
+        $this->select = $fields ? implode(', ', $fields) : $this->select;
 
         return $this;
     }
@@ -43,7 +47,7 @@ class MysqlQueryBuilder implements SQLQueryBuilder
 
     public function limit(int $start, int $offset): SQLQueryBuilder
     {
-        $this->limit = " LIMIT " . $start . ", " . $offset;
+        $this->limit = ' LIMIT '.$start.', '.$offset;
 
         return $this;
     }
@@ -53,12 +57,12 @@ class MysqlQueryBuilder implements SQLQueryBuilder
     {
         $sql = "select $this->select from $this->table";
         if ($this->where) {
-            $sql .= " where " . implode(' and ', $this->where);
+            $sql .= ' where '.implode(' and ', $this->where);
         }
         if ($this->limit) {
             $sql .= $this->limit;
         }
-        $sql .= ";";
+        $sql .= ';';
 
         return $sql;
     }

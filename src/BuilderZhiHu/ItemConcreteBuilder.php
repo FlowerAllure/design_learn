@@ -1,8 +1,11 @@
 <?php
 
+/*
+ * This source file is subject to the MIT license that is bundled
+ * with this source code in the file LICENSE.
+ */
 
 namespace Flowerallure\DesignLearn\BuilderZhiHu;
-
 
 class ItemConcreteBuilder implements ItemBuilder
 {
@@ -15,7 +18,7 @@ class ItemConcreteBuilder implements ItemBuilder
 
     public function buildNormal()
     {
-        $this->item->setItemName("普通商品");
+        $this->item->setItemName('普通商品');
         $this->item->setType(1);
 
         return $this->item;
@@ -23,7 +26,7 @@ class ItemConcreteBuilder implements ItemBuilder
 
     public function buildCard()
     {
-        $this->item->setItemName("卡劵商品");
+        $this->item->setItemName('卡劵商品');
         $this->item->setType(2);
 
         return $this->item;
@@ -31,7 +34,7 @@ class ItemConcreteBuilder implements ItemBuilder
 
     public function buildVideo()
     {
-        $this->item->setItemName("视频商品");
+        $this->item->setItemName('视频商品');
         $this->item->setType(3);
 
         return $this->item;
