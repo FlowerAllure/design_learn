@@ -1,5 +1,5 @@
 {
-    "name": "flowerallure/design-learn",
+    "name": "FlowerAllure/design-learn",
     "description": "First Learn",
     "license": ["MIT"],
     "type": "library",
@@ -20,7 +20,12 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Flowerallure\\DesignLearn\\": "src/"
+            "FlowerAllure\\DesignLearn\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "FlowerAllure\\DesignLearn\\Test\\": "tests/"
         }
     }
 }
