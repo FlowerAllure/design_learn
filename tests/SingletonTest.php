@@ -9,7 +9,6 @@ use PHPUnit\Framework\TestCase;
 
 class SingletonTest extends TestCase
 {
-    #[NoReturn]
     public function testSingleton()
     {
         $firstCall = Singleton::getInstance();
@@ -22,5 +21,14 @@ class SingletonTest extends TestCase
         $firstCall = SingletonA::getInstance();
         $secondCall = SingletonA::getInstance();
         $this->assertSame(spl_object_hash($firstCall), spl_object_hash($secondCall));
+    }
+
+    public function testSerialize()
+    {
+        $instance = Singleton::getInstance();
+        $serializeInstance = serialize($instance);
+        $unSerializeInstance = unserialize($serializeInstance);
+        // 如果反序列化后，其对象hash不一样，说明重新new，所以需要进制反序列化
+        $this->assertSame(spl_object_hash($instance), spl_object_hash($unSerializeInstance));
     }
 }
