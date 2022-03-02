@@ -4,8 +4,6 @@ namespace FlowerAllure\DesignLearn\Test;
 
 use FlowerAllure\DesignLearn\Singleton\Singleton;
 use FlowerAllure\DesignLearn\Singleton\SingletonA;
-use JetBrains\PhpStorm\NoReturn;
-use PHPUnit\Framework\TestCase;
 
 class SingletonTest extends TestCase
 {
