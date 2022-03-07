@@ -21,11 +21,17 @@
         "psr-4": {
             "FlowerAllure\\DesignLearn\\": "src/"
         },
-        "files": ["function.php"]
+        "files": ["function.php"],
+        "classmap": [
+            "config"
+        ]
     },
     "autoload-dev": {
         "psr-4": {
             "FlowerAllure\\DesignLearn\\Test\\": "tests/"
         }
+    },
+    "config": {
+        "sort-packages": true
     }
 }
