@@ -1,5 +1,10 @@
 <?php
 
+/*
+ * This source file is subject to the MIT license that is bundled
+ * with this source code in the file LICENSE.
+ */
+
 namespace FlowerAllure\DesignLearn\Singleton;
 
 class Singleton
@@ -17,12 +22,12 @@ class Singleton
 
     public function __wakeup(): void
     {
-        throw new \Exception("cannot serialize a singleton.");
+        throw new \Exception('cannot serialize a singleton.');
     }
 
     public static function getInstance(): ?Singleton
     {
-        if (static::$instance === null) {
+        if (null === static::$instance) {
             static::$instance = new static();
         }
 

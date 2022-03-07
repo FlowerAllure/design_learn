@@ -1,27 +1,33 @@
 <?php
 
+/*
+ * This source file is subject to the MIT license that is bundled
+ * with this source code in the file LICENSE.
+ */
+
 namespace FlowerAllure\DesignLearn\Test;
 
-use FlowerAllure\DesignLearn\FactoryMethod\FileLogger;
-use FlowerAllure\DesignLearn\FactoryMethod\FileLoggerFactory;
-use FlowerAllure\DesignLearn\FactoryMethod\SqlLogger;
-use FlowerAllure\DesignLearn\FactoryMethod\SqlLoggerFactory;
+
+use FlowerAllure\DesignLearn\FactoryMethod\Logger\DatabaseLogger;
+use FlowerAllure\DesignLearn\FactoryMethod\Logger\FileLogger;
+use FlowerAllure\DesignLearn\FactoryMethod\LoggerFactory\DatabaseLoggerFactory;
+use FlowerAllure\DesignLearn\FactoryMethod\LoggerFactory\FileLoggerFactory;
 
 class FactoryMethodTest extends TestCase
 {
     public function testCanCreateSqlLogging()
     {
-        $loggerFactory = new SqlLoggerFactory();
+        $loggerFactory = new DatabaseLoggerFactory();
         $logger = $loggerFactory->createLogger();
-        $logger->info("工厂模式");
-        $this->assertInstanceOf(SqlLogger::class, $logger);
+        $logger->writeLog("数据库记录器");
+        $this->assertInstanceOf(DatabaseLogger::class, $logger);
     }
 
     public function testCanCreateFileLogging()
     {
         $loggerFactory = new FileLoggerFactory();
         $logger = $loggerFactory->createLogger();
-        $logger->info("工厂模式");
+        $logger->writeLog('文件记录器');
         $this->assertInstanceOf(FileLogger::class, $logger);
     }
 }

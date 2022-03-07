@@ -1,5 +1,10 @@
 <?php
 
+/*
+ * This source file is subject to the MIT license that is bundled
+ * with this source code in the file LICENSE.
+ */
+
 namespace FlowerAllure\DesignLearn\Test;
 
 use FlowerAllure\DesignLearn\AbstractFactory\DellFactory;
@@ -18,6 +23,7 @@ class AbstractFactory extends TestCase
         $product->info();
         $this->assertInstanceOf(DellKeyBoard::class, $product);
     }
+
     public function testCanCreateDellMouse()
     {
         $factory = new DellFactory();
@@ -25,6 +31,7 @@ class AbstractFactory extends TestCase
         $product->info();
         $this->assertInstanceOf(DellMouse::class, $product);
     }
+
     public function testCanCreateHpKeyBoard()
     {
         $factory = new HpFactory();
@@ -32,6 +39,7 @@ class AbstractFactory extends TestCase
         $product->info();
         $this->assertInstanceOf(HpKeyBoard::class, $product);
     }
+
     public function testCanCreateHpMouse()
     {
         $factory = new HpFactory();
